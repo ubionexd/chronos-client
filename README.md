@@ -1,7 +1,6 @@
-# Chronos Client
+# Chronos Client Plus
 
-This is Chronos Client's GitHub Repository. On the  `main` branch you can get information about this project, learn how to contribute etc.
-To get to the modpack's source, navigate between branches:
-- classic
-- plus
-- extended
+
+This branch is for Chronos Client Plus, which is a version of Chronos, focused on adding the best visual experience to the game, like shaders, the illuminations mod, sound physics and more, but still fully client side.  
+
+Go back to [`main`](https://github.com/ubionexd/chronos-client/tree/master) for info about this project!
