@@ -1,0 +1,15 @@
+name: Bug Report
+description: Report a bug you found in Chronos Client!
+labels: ["bug"]
+
+body:
+  - type: dropdown
+    attributes:
+      label: Version
+      options:
+      - Chronos Classic
+      - Chronos Extended
+      - Chronos Plus
+    validations:
+      required: false
+    
