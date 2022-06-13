@@ -23,7 +23,7 @@ body:
     attributes:
       label: What's wrong?
       description: Please describe the bug you found!
-      placeholder: The modpack is crashing!!
+      placeholder: The modpack is "..."
     validations:
       required: false
   - type: textarea
@@ -40,6 +40,5 @@ body:
     attributes:
       label: Additional information
       description: Additional information about the bug and or help to reproduce it goes here.
-      placeholder: The modpack is crashing!!
     validations:
       required: false
