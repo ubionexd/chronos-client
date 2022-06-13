@@ -1,0 +1,45 @@
+name: Bug Report
+description: Report a bug you found in Chronos Client!
+labels: ['bug']
+
+body:
+  - type: dropdown
+    attributes:
+      label: Version
+      options:
+        - Chronos Classic
+        - Chronos Extended
+        - Chronos Plus
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Client Version
+      description: Please put in the version you found the bug in.
+      palceholder: 0.0.0
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: What's wrong?
+      description: Please describe the bug you found!
+      placeholder: The modpack is crashing!!
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: How did you make the bug happen?
+      placeholder: |
+        1. Go to "..."
+        2. Do "..."
+        3 See error
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Additional information about the bug and or help to reproduce it goes here.
+      placeholder: The modpack is crashing!!
+    validations:
+      required: false
