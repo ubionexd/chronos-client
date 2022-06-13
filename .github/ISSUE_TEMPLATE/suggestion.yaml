@@ -1,0 +1,41 @@
+name: Suggestion
+description: Request a feature, mod, resource pack or shader pack to be included, removed or changed in Chronos Client.
+labels: ['enhancement']
+
+body:
+  - type: dropdown
+    attributes:
+      label: Version
+      options:
+        - Chronos Classic
+        - Chronos Extended
+        - Chronos Plus
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Suggestion Type
+      description: What type of suggestion is this?
+      placeholder: Mod, config, resource pack, shader pack etc.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: What do you want?
+      description: Please describe the request!
+      placeholder: I want "..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Why is this good for Chronos Client?
+      description: Tell us why should we add your suggestion to Chronos?
+      placeholder: It should be added, because "..."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Additional information about your suggestion.
+    validations:
+      required: false
